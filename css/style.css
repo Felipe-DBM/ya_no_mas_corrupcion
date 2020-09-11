@@ -51,10 +51,10 @@ header{
 
 /**--Muro de publicación--**/
 #feed{
-   width: 70%;
-   height: auto; overflow: hidden;
-   margin-top: 10px;
-   float: left;
+  width: 70%;
+  height: auto; overflow: hidden;
+  margin-top: 10px;
+  float: left;
 }
 
 /**--Artículo 1--**/
