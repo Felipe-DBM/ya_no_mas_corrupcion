@@ -1,0 +1,142 @@
+/**----------Parámetros generales----------**/
+*{
+  margin: 0;
+  padding: 0;
+}
+/**----------Estilos del cuerpo----------**/
+body{
+  background: #ffffff;
+  font-family: calibri;
+  
+}
+
+/**----------Estilos del encabezado----------**/
+
+/*----Encabezado entero----*/
+header{
+  background-color: #0000ff;
+  width: 100%;
+  height: 150px;
+  box-shadow: 0px 0px 30px #aaaaaa ;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+  border-bottom-width: 10px;
+}
+
+#header {
+  width: 80%;
+  height: 30px;
+  margin: auto;
+}
+
+/**--Nombre de la página--**/
+#logo{
+  width: 50%;
+  margin: auto; overflow: hidden;
+  float: left;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+
+/**----------Sección de noticias----------**/
+/**-----Noticia 1-----**/
+/**--Catálogo de noticias--**/
+#principal{
+  width: 80%;
+  height: auto; overflow: hidden;
+  margin: 10px auto;
+}
+
+/**--Muro de publicación--**/
+#feed{
+   width: 70%;
+   height: auto; overflow: hidden;
+   margin-top: 10px;
+   float: left;
+}
+
+/**--Artículo 1--**/
+.post{
+  width: 96%;
+  height: auto; overflow: hidden;
+  padding: 7px;
+  background: #fdfdff;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #0000ff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #cccccc;
+  margin-bottom: 25px;
+}
+
+.link-post{
+  text-decoration: none;
+}
+
+#feed, a, h2 .post-title{
+  color: #6e6e6e;
+  font-size: 22px;
+  font-family: 'calibri light';
+
+}
+
+#feed, p, .paragraph-post{
+  font-size: 20px;
+}
+
+#feed  .img-post{
+  width: 140px;
+  height: 90px;
+  float: left;
+  margin: 7px 7px 7px 0px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+/**Información de la primera publicación**/
+#feed .post-data{
+  font-family: 'calibri light';
+  color: #0000ff;
+}
+/**Párrafo artículo 1**/
+#feed .paragraph-post{
+  font-family: 'calibri light';
+  font-size: 16px;
+  color: #848484;
+  padding: 5px;
+}
+
+/**Botón de "Leer más" del artículo 1**/
+#feed .leer-mas{
+  background: #0000ff;
+  color: #ffffff;
+  border: 0px;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+
+/**--Sidebar--**/
+#sidebar{
+  float: right;
+  width: 28%;
+  border: 1px solid;
+  height: auto; overflow: hidden;
+  padding: 7px;
+  text-align: center;
+}
+
+/**Pie de página y especificaciones**/
+#footer{
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+
+
+

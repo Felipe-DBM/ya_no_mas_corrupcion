@@ -1,0 +1,21 @@
+#full-art{
+  margin: 20px;
+}
+
+#title-art{
+  margin: 20px;
+  font-size: 30px;
+}
+
+#content-art{
+  margin: 20px;
+}
+
+#back-button{
+  padding: 20px;
+}
+
+.paragraph{
+  padding: 10px;
+}
+
