@@ -119,17 +119,6 @@ header{
   margin-top: 20px;
 }
 
-
-/**--Sidebar--**/
-#sidebar{
-  float: right;
-  width: 28%;
-  border: 1px solid;
-  height: auto; overflow: hidden;
-  padding: 7px;
-  text-align: center;
-}
-
 /**Pie de página y especificaciones**/
 #footer{
   padding-top: 10px;
