@@ -1,0 +1,20 @@
+#index{
+  margin: 20px;
+}
+
+.art-index{
+  color: #000000;
+  text-decoration: none;
+}
+
+#quotes{
+  background-color: #ebe9e0;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #000000;
+  border-radius: 2px;
+}
+
+.q-paragraph{
+  margin-left: 10px;
+}
