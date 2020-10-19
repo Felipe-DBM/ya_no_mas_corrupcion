@@ -1,23 +1,22 @@
 /**----------Parámetros generales----------**/
-*{
+* {
   margin: 0;
   padding: 0;
 }
 /**----------Estilos del cuerpo----------**/
-body{
+body {
   background: #ffffff;
   font-family: calibri;
-  
 }
 
 /**----------Estilos del encabezado----------**/
 
 /*----Encabezado entero----*/
-header{
+header {
   background-color: #d60000;
   width: 100%;
   height: 150px;
-  box-shadow: 0px 0px 30px #aaaaaa ;
+  box-shadow: 0px 0px 30px #aaaaaa;
   border-bottom-style: solid;
   border-bottom-color: #000000;
   border-bottom-width: 10px;
@@ -30,40 +29,44 @@ header{
 }
 
 /**--Nombre de la página--**/
-#logo{
+#logo {
   width: 50%;
-  margin: auto; overflow: hidden;
+  margin: auto;
+  overflow: hidden;
   float: left;
   color: #ffffff;
   font-size: 15px;
   margin-top: 15px;
 }
 
-#nav{
+#nav {
   padding-top: 100;
 }
 
 /**----------Sección de noticias----------**/
 /**-----Noticia 1-----**/
 /**--Catálogo de noticias--**/
-#principal{
+#principal {
   width: 80%;
-  height: auto; overflow: hidden;
+  height: auto;
+  overflow: hidden;
   margin: 10px auto;
 }
 
 /**--Muro de publicación--**/
-#feed{
+#feed {
   width: 70%;
-  height: auto; overflow: hidden;
+  height: auto;
+  overflow: hidden;
   margin-top: 10px;
   float: left;
 }
 
 /**--Artículo 1--**/
-.post{
+.post {
   width: 96%;
-  height: auto; overflow: hidden;
+  height: auto;
+  overflow: hidden;
   padding: 7px;
   background: #fdfdff;
   border-left-style: solid;
@@ -74,22 +77,25 @@ header{
   margin-bottom: 25px;
 }
 
-.link-post{
+.link-post {
   text-decoration: none;
 }
 
-#feed, a, h2 .post-title{
+#feed,
+a,
+h2 .post-title {
   color: #6e6e6e;
   font-size: 22px;
-  font-family: 'calibri light';
-
+  font-family: "calibri light";
 }
 
-#feed, p, .paragraph-post{
+#feed,
+p,
+.paragraph-post {
   font-size: 20px;
 }
 
-#feed  .img-post{
+#feed .img-post {
   width: 140px;
   height: 90px;
   float: left;
@@ -99,7 +105,7 @@ header{
   border-radius: 5px;
 }
 
-#feed  .img-post2{
+#feed .img-post2 {
   width: 130px;
   height: 85px;
   float: left;
@@ -110,20 +116,20 @@ header{
 }
 
 /**Información de la primera publicación**/
-#feed .post-data{
-  font-family: 'calibri light';
+#feed .post-data {
+  font-family: "calibri light";
   color: #000000;
 }
 /**Párrafo artículo 1**/
-#feed .paragraph-post{
-  font-family: 'calibri light';
+#feed .paragraph-post {
+  font-family: "calibri light";
   font-size: 16px;
   color: #848484;
   padding: 10px;
 }
 
 /**Botón de "Leer más" del artículo 1**/
-#feed .leer-mas{
+#feed .leer-mas {
   background: #d60000;
   color: #ffffff;
   border-radius: 10px;
@@ -133,12 +139,9 @@ header{
 }
 
 /**Pie de página y especificaciones**/
-#footer{
+#footer {
   padding-top: 10px;
   padding-right: 40px;
   padding-left: 40px;
   padding-bottom: 30px;
 }
-
-
-
