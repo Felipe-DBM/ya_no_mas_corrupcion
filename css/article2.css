@@ -1,13 +1,13 @@
-#index{
+#index {
   margin: 20px;
 }
 
-.art-index{
+.art-index {
   color: #000000;
   text-decoration: none;
 }
 
-#quotes{
+#quotes {
   background-color: #ebe9e0;
   border-left-style: solid;
   border-left-width: 2px;
@@ -15,6 +15,10 @@
   border-radius: 2px;
 }
 
-.q-paragraph{
+.q-paragraph {
   margin-left: 10px;
+}
+
+#references {
+  margin-left: 20px;
 }
